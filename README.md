@@ -18,6 +18,9 @@ Before you begin, ensure you have the following installed:
 
 Follow these steps to get the project up and running on your local machine.
 
+## Asumption
+This project uses a cloud-hosted MongoDB Atlas cluster for persistent data storage, as permitted by the assignment guidelines.
+
 1.  **Clone the repository**
     ```bash
     git clone <your-repository-url>
