@@ -53,7 +53,7 @@ The following endpoints are available:
 
 | Method | Endpoint          | Description                 | Request Body (Example)                               |
 | :----- | :---------------- | :-------------------------- | :--------------------------------------------------- |
-| `POST` | `/api/todos`      | Create a new to-do item     | `{ "task": "Learn Express" }`                        |
-| `GET`  | `/api/todos`      | Get all to-do items         | `{ "task": "Test the API with Postman","completed": false,"createdAt": "2025-09-16T20:18:39.097Z","updatedAt": "2025-09-16T20:18:39.097Z","__v": 0 }`                                               |
+| `POST` | `/api/todos`      | Create a new to-do item     | `{ "task": "Learn express" }`                        |
+| `GET`  | `/api/todos`      | Get all to-do items         | (NONE)                                            |
 | `PUT`  | `/api/todos/:id`  | Update an existing to-do    | `{ "task": "Learn MERN", "completed": true }`        |
-| `DELETE`| `/api/todos/:id`  | Delete a to-do item         | `{ "message": "To-do removed successfully"}`        |
+| `DELETE`| `/api/todos/:id`  | Delete a to-do item         | (NONE)       |
